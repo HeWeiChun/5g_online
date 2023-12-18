@@ -1,0 +1,237 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------------< com.networkflow:backendspringboot3 >-----------------
+[INFO] Building backendspringboot3 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> spring-boot-maven-plugin:3.1.5:run (default-cli) > test-compile @ backendspringboot3 >>>
+[INFO] 
+[INFO] --- maven-resources-plugin:3.3.1:resources (default-resources) @ backendspringboot3 ---
+[INFO] Copying 1 resource from src/main/resources to target/classes
+[INFO] Copying 37 resources from src/main/resources to target/classes
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.11.0:compile (default-compile) @ backendspringboot3 ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:3.3.1:testResources (default-testResources) @ backendspringboot3 ---
+[INFO] skip non existing resourceDirectory /home/whe/webHWCYahong/backend/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.11.0:testCompile (default-testCompile) @ backendspringboot3 ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] <<< spring-boot-maven-plugin:3.1.5:run (default-cli) < test-compile @ backendspringboot3 <<<
+[INFO] 
+[INFO] 
+[INFO] --- spring-boot-maven-plugin:3.1.5:run (default-cli) @ backendspringboot3 ---
+[INFO] Attaching agents: []
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.1.5)
+
+2023-10-25T21:23:02.389+08:00  INFO 3846950 --- [           main] c.n.b.Backendspringboot3Application      : Starting Backendspringboot3Application using Java 17.0.8 with PID 3846950 (/home/whe/webHWCYahong/backend/target/classes started by whe in /home/whe/webHWCYahong/backend)
+2023-10-25T21:23:02.391+08:00  INFO 3846950 --- [           main] c.n.b.Backendspringboot3Application      : No active profile set, falling back to 1 default profile: "default"
+2023-10-25T21:23:03.436+08:00  INFO 3846950 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9600 (http)
+2023-10-25T21:23:03.444+08:00  INFO 3846950 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-25T21:23:03.445+08:00  INFO 3846950 --- [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.15]
+2023-10-25T21:23:03.523+08:00  INFO 3846950 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-10-25T21:23:03.524+08:00  INFO 3846950 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1076 ms
+ _ _   |_  _ _|_. ___ _ |    _ 
+| | |\/|_)(_| | |_\  |_)||_|_\ 
+     /               |         
+                        3.5.4 
+2023-10-25T21:23:03.725+08:00  WARN 3846950 --- [           main] c.b.m.core.metadata.TableInfoHelper      : Can not find table primary key in Class: "com.networkflow.backendspringboot3.model.domain.Abstract".
+2023-10-25T21:23:03.729+08:00  WARN 3846950 --- [           main] c.b.m.core.injector.DefaultSqlInjector   : class com.networkflow.backendspringboot3.model.domain.Abstract ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2023-10-25T21:23:03.983+08:00  WARN 3846950 --- [           main] c.b.m.core.metadata.TableInfoHelper      : Can not find table primary key in Class: "com.networkflow.backendspringboot3.model.domain.Packet".
+2023-10-25T21:23:03.984+08:00  WARN 3846950 --- [           main] c.b.m.core.injector.DefaultSqlInjector   : class com.networkflow.backendspringboot3.model.domain.Packet ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2023-10-25T21:23:04.319+08:00  INFO 3846950 --- [           main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2023-10-25T21:23:05.055+08:00  INFO 3846950 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9600 (http) with context path ''
+2023-10-25T21:23:05.071+08:00  INFO 3846950 --- [           main] c.n.b.Backendspringboot3Application      : Started Backendspringboot3Application in 3.031 seconds (process running for 3.296)
+2023-10-25T21:23:10.092+08:00  INFO 3846950 --- [   scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-10-25T21:23:10.290+08:00  INFO 3846950 --- [   scheduling-1] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.clickhouse.jdbc.internal.ClickHouseConnectionImpl@b3d4dd5
+2023-10-25T21:23:10.292+08:00  INFO 3846950 --- [   scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-10-25T21:23:25.166+08:00  INFO 3846950 --- [nio-9600-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-25T21:23:25.167+08:00  INFO 3846950 --- [nio-9600-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-10-25T21:23:25.168+08:00  INFO 3846950 --- [nio-9600-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-10-25T21:51:35.073+08:00  INFO 3846950 --- [kPoolExecutor-1] c.n.b.service.impl.DetectTask            : 任务: 14e1ccf3-0fb3-4876-8f04-2227b736c836 执行检测, 线程名字为 = checkTaskPoolExecutor-1
+2023-10-25T21:51:35.082+08:00  INFO 3846950 --- [kPoolExecutor-1] c.n.b.service.impl.TaskManager           : 添加任务: 14e1ccf3-0fb3-4876-8f04-2227b736c836 Map中任务数: 1
+2023-10-25T21:51:35.084+08:00  INFO 3846950 --- [kPoolExecutor-1] c.n.b.service.impl.DetectTask            : 任务: 14e1ccf3-0fb3-4876-8f04-2227b736c836 检测脚本运行的PID为:3849273
+2023-10-25T21:51:35.100+08:00  INFO 3846950 --- [kPoolExecutor-2] c.n.b.service.impl.DetectTask            : 任务: 284cdd44-b148-400e-83fc-ac9e419f9006 执行检测, 线程名字为 = checkTaskPoolExecutor-2
+2023-10-25T21:51:35.102+08:00  INFO 3846950 --- [kPoolExecutor-2] c.n.b.service.impl.TaskManager           : 添加任务: 284cdd44-b148-400e-83fc-ac9e419f9006 Map中任务数: 2
+2023-10-25T21:51:35.102+08:00  INFO 3846950 --- [kPoolExecutor-2] c.n.b.service.impl.DetectTask            : 任务: 284cdd44-b148-400e-83fc-ac9e419f9006 检测脚本运行的PID为:3849276
+2023-10-25T21:51:35.140+08:00  INFO 3846950 --- [kPoolExecutor-3] c.n.b.service.impl.DetectTask            : 任务: 4e42c1ca-edcc-4fd0-beec-bfb9a0a18448 执行检测, 线程名字为 = checkTaskPoolExecutor-3
+2023-10-25T21:51:35.143+08:00  INFO 3846950 --- [kPoolExecutor-3] c.n.b.service.impl.TaskManager           : 添加任务: 4e42c1ca-edcc-4fd0-beec-bfb9a0a18448 Map中任务数: 3
+2023-10-25T21:51:35.143+08:00  INFO 3846950 --- [kPoolExecutor-3] c.n.b.service.impl.DetectTask            : 任务: 4e42c1ca-edcc-4fd0-beec-bfb9a0a18448 检测脚本运行的PID为:3849279
+2023-10-25T21:51:35.174+08:00  INFO 3846950 --- [kPoolExecutor-4] c.n.b.service.impl.DetectTask            : 任务: 54db0ae6-d078-4c43-ab2c-f474f9479f7b 执行检测, 线程名字为 = checkTaskPoolExecutor-4
+2023-10-25T21:51:35.176+08:00  INFO 3846950 --- [kPoolExecutor-4] c.n.b.service.impl.TaskManager           : 添加任务: 54db0ae6-d078-4c43-ab2c-f474f9479f7b Map中任务数: 4
+2023-10-25T21:51:35.177+08:00  INFO 3846950 --- [kPoolExecutor-4] c.n.b.service.impl.DetectTask            : 任务: 54db0ae6-d078-4c43-ab2c-f474f9479f7b 检测脚本运行的PID为:3849282
+2023-10-25T21:51:35.208+08:00  INFO 3846950 --- [kPoolExecutor-5] c.n.b.service.impl.DetectTask            : 任务: 58a31b2c-0ab8-4477-9b37-e6f2b2b0d4eb 执行检测, 线程名字为 = checkTaskPoolExecutor-5
+2023-10-25T21:51:35.211+08:00  INFO 3846950 --- [kPoolExecutor-5] c.n.b.service.impl.TaskManager           : 添加任务: 58a31b2c-0ab8-4477-9b37-e6f2b2b0d4eb Map中任务数: 5
+2023-10-25T21:51:35.211+08:00  INFO 3846950 --- [kPoolExecutor-5] c.n.b.service.impl.DetectTask            : 任务: 58a31b2c-0ab8-4477-9b37-e6f2b2b0d4eb 检测脚本运行的PID为:3849285
+2023-10-25T21:51:35.239+08:00  INFO 3846950 --- [kPoolExecutor-6] c.n.b.service.impl.DetectTask            : 任务: 8e48ba62-1042-461b-ab52-c0dc31e61b5c 执行检测, 线程名字为 = checkTaskPoolExecutor-6
+2023-10-25T21:51:35.242+08:00  INFO 3846950 --- [kPoolExecutor-6] c.n.b.service.impl.TaskManager           : 添加任务: 8e48ba62-1042-461b-ab52-c0dc31e61b5c Map中任务数: 6
+2023-10-25T21:51:35.242+08:00  INFO 3846950 --- [kPoolExecutor-6] c.n.b.service.impl.DetectTask            : 任务: 8e48ba62-1042-461b-ab52-c0dc31e61b5c 检测脚本运行的PID为:3849288
+2023-10-25T21:51:35.265+08:00  INFO 3846950 --- [kPoolExecutor-7] c.n.b.service.impl.DetectTask            : 任务: a83af632-2f3c-40e2-a0d7-05916a1b967c 执行检测, 线程名字为 = checkTaskPoolExecutor-7
+2023-10-25T21:51:35.267+08:00  INFO 3846950 --- [kPoolExecutor-7] c.n.b.service.impl.TaskManager           : 添加任务: a83af632-2f3c-40e2-a0d7-05916a1b967c Map中任务数: 7
+2023-10-25T21:51:35.267+08:00  INFO 3846950 --- [kPoolExecutor-7] c.n.b.service.impl.DetectTask            : 任务: a83af632-2f3c-40e2-a0d7-05916a1b967c 检测脚本运行的PID为:3849291
+2023-10-25T21:51:35.295+08:00  INFO 3846950 --- [kPoolExecutor-8] c.n.b.service.impl.DetectTask            : 任务: c27f4a17-ac0f-4c29-9f80-2a27e71be324 执行检测, 线程名字为 = checkTaskPoolExecutor-8
+2023-10-25T21:51:35.298+08:00  INFO 3846950 --- [kPoolExecutor-8] c.n.b.service.impl.TaskManager           : 添加任务: c27f4a17-ac0f-4c29-9f80-2a27e71be324 Map中任务数: 8
+2023-10-25T21:51:35.298+08:00  INFO 3846950 --- [kPoolExecutor-8] c.n.b.service.impl.DetectTask            : 任务: c27f4a17-ac0f-4c29-9f80-2a27e71be324 检测脚本运行的PID为:3849294
+2023-10-25T21:51:35.327+08:00  INFO 3846950 --- [kPoolExecutor-9] c.n.b.service.impl.DetectTask            : 任务: e2ab923a-6ea5-46cd-887c-1c66f8d3267a 执行检测, 线程名字为 = checkTaskPoolExecutor-9
+2023-10-25T21:51:35.329+08:00  INFO 3846950 --- [kPoolExecutor-9] c.n.b.service.impl.TaskManager           : 添加任务: e2ab923a-6ea5-46cd-887c-1c66f8d3267a Map中任务数: 9
+2023-10-25T21:51:35.329+08:00  INFO 3846950 --- [kPoolExecutor-9] c.n.b.service.impl.DetectTask            : 任务: e2ab923a-6ea5-46cd-887c-1c66f8d3267a 检测脚本运行的PID为:3849297
+2023-10-25T21:51:35.356+08:00  INFO 3846950 --- [PoolExecutor-10] c.n.b.service.impl.DetectTask            : 任务: e4820f89-2a17-4f6f-9c2e-e08c5a95ff33 执行检测, 线程名字为 = checkTaskPoolExecutor-10
+2023-10-25T21:51:35.357+08:00  INFO 3846950 --- [PoolExecutor-10] c.n.b.service.impl.TaskManager           : 添加任务: e4820f89-2a17-4f6f-9c2e-e08c5a95ff33 Map中任务数: 10
+2023-10-25T21:51:35.358+08:00  INFO 3846950 --- [PoolExecutor-10] c.n.b.service.impl.DetectTask            : 任务: e4820f89-2a17-4f6f-9c2e-e08c5a95ff33 检测脚本运行的PID为:3849300
+2023-10-25T21:51:35.390+08:00  INFO 3846950 --- [PoolExecutor-11] c.n.b.service.impl.DetectTask            : 任务: f7daa540-ad7f-4226-812f-825d22fc6287 执行检测, 线程名字为 = checkTaskPoolExecutor-11
+2023-10-25T21:51:35.392+08:00  INFO 3846950 --- [PoolExecutor-11] c.n.b.service.impl.TaskManager           : 添加任务: f7daa540-ad7f-4226-812f-825d22fc6287 Map中任务数: 11
+2023-10-25T21:51:35.392+08:00  INFO 3846950 --- [PoolExecutor-11] c.n.b.service.impl.DetectTask            : 任务: f7daa540-ad7f-4226-812f-825d22fc6287 检测脚本运行的PID为:3849330
+2023-10-25T21:51:38.220+08:00  INFO 3846950 --- [kPoolExecutor-7] c.n.b.service.impl.DetectTask            : 任务: a83af632-2f3c-40e2-a0d7-05916a1b967c Go脚本进程PID为: 3850129
+2023-10-25T21:51:38.220+08:00  INFO 3846950 --- [kPoolExecutor-7] c.n.b.service.impl.DetectTask            : 任务: a83af632-2f3c-40e2-a0d7-05916a1b967c Go脚本执行完毕, 退出码: 0
+2023-10-25T21:51:38.220+08:00  INFO 3846950 --- [kPoolExecutor-7] c.n.b.service.impl.DetectTask            : 任务: a83af632-2f3c-40e2-a0d7-05916a1b967c 解析完成
+2023-10-25T21:51:38.220+08:00  INFO 3846950 --- [kPoolExecutor-7] c.n.b.service.impl.DetectTask            : 任务: a83af632-2f3c-40e2-a0d7-05916a1b967c Python脚本进程的PID为: 3851980
+2023-10-25T21:51:38.220+08:00  INFO 3846950 --- [kPoolExecutor-7] c.n.b.service.impl.DetectTask            : 任务: a83af632-2f3c-40e2-a0d7-05916a1b967c (Python) 当前使用模型: XGBoost(Time)
+2023-10-25T21:51:38.220+08:00  INFO 3846950 --- [kPoolExecutor-7] c.n.b.service.impl.DetectTask            : 任务: a83af632-2f3c-40e2-a0d7-05916a1b967c Python脚本执行完毕, 退出码：0
+2023-10-25T21:51:38.220+08:00  INFO 3846950 --- [kPoolExecutor-7] c.n.b.service.impl.DetectTask            : 任务: a83af632-2f3c-40e2-a0d7-05916a1b967c 检测完成
+2023-10-25T21:51:38.247+08:00  INFO 3846950 --- [kPoolExecutor-7] c.n.b.service.impl.TaskManager           : 删除任务: a83af632-2f3c-40e2-a0d7-05916a1b967c Map中任务数: 10
+2023-10-25T21:51:38.247+08:00  INFO 3846950 --- [kPoolExecutor-7] c.n.b.service.impl.DetectTask            : 任务: a83af632-2f3c-40e2-a0d7-05916a1b967c 检测成功, 已停止, 退出码为: 0
+2023-10-25T21:51:46.080+08:00  INFO 3846950 --- [kPoolExecutor-6] c.n.b.service.impl.DetectTask            : 任务: 8e48ba62-1042-461b-ab52-c0dc31e61b5c Go脚本进程PID为: 3849988
+2023-10-25T21:51:46.080+08:00  INFO 3846950 --- [kPoolExecutor-6] c.n.b.service.impl.DetectTask            : 任务: 8e48ba62-1042-461b-ab52-c0dc31e61b5c Go脚本执行完毕, 退出码: 0
+2023-10-25T21:51:46.081+08:00  INFO 3846950 --- [kPoolExecutor-6] c.n.b.service.impl.DetectTask            : 任务: 8e48ba62-1042-461b-ab52-c0dc31e61b5c 解析完成
+2023-10-25T21:51:46.081+08:00  INFO 3846950 --- [kPoolExecutor-6] c.n.b.service.impl.DetectTask            : 任务: 8e48ba62-1042-461b-ab52-c0dc31e61b5c Python脚本进程的PID为: 3852235
+2023-10-25T21:51:46.081+08:00  INFO 3846950 --- [kPoolExecutor-6] c.n.b.service.impl.DetectTask            : 任务: 8e48ba62-1042-461b-ab52-c0dc31e61b5c (Python) 当前使用模型: XGBoost(UEID)
+2023-10-25T21:51:46.081+08:00  INFO 3846950 --- [kPoolExecutor-6] c.n.b.service.impl.DetectTask            : 任务: 8e48ba62-1042-461b-ab52-c0dc31e61b5c Python脚本执行完毕, 退出码：0
+2023-10-25T21:51:46.081+08:00  INFO 3846950 --- [kPoolExecutor-6] c.n.b.service.impl.DetectTask            : 任务: 8e48ba62-1042-461b-ab52-c0dc31e61b5c 检测完成
+2023-10-25T21:51:46.115+08:00  INFO 3846950 --- [kPoolExecutor-6] c.n.b.service.impl.TaskManager           : 删除任务: 8e48ba62-1042-461b-ab52-c0dc31e61b5c Map中任务数: 9
+2023-10-25T21:51:46.115+08:00  INFO 3846950 --- [kPoolExecutor-6] c.n.b.service.impl.DetectTask            : 任务: 8e48ba62-1042-461b-ab52-c0dc31e61b5c 检测成功, 已停止, 退出码为: 0
+2023-10-25T21:52:01.299+08:00  INFO 3846950 --- [kPoolExecutor-9] c.n.b.service.impl.DetectTask            : 任务: e2ab923a-6ea5-46cd-887c-1c66f8d3267a Go脚本进程PID为: 3850410
+2023-10-25T21:52:01.299+08:00  INFO 3846950 --- [kPoolExecutor-9] c.n.b.service.impl.DetectTask            : 任务: e2ab923a-6ea5-46cd-887c-1c66f8d3267a Go脚本执行完毕, 退出码: 0
+2023-10-25T21:52:01.299+08:00  INFO 3846950 --- [kPoolExecutor-9] c.n.b.service.impl.DetectTask            : 任务: e2ab923a-6ea5-46cd-887c-1c66f8d3267a 解析完成
+2023-10-25T21:52:01.299+08:00  INFO 3846950 --- [kPoolExecutor-9] c.n.b.service.impl.DetectTask            : 任务: e2ab923a-6ea5-46cd-887c-1c66f8d3267a Python脚本进程的PID为: 3852392
+2023-10-25T21:52:01.299+08:00  INFO 3846950 --- [kPoolExecutor-9] c.n.b.service.impl.DetectTask            : 任务: e2ab923a-6ea5-46cd-887c-1c66f8d3267a (Python) 当前使用模型: XGBoost(Time)
+2023-10-25T21:52:01.299+08:00  INFO 3846950 --- [kPoolExecutor-9] c.n.b.service.impl.DetectTask            : 任务: e2ab923a-6ea5-46cd-887c-1c66f8d3267a Python脚本执行完毕, 退出码：0
+2023-10-25T21:52:01.299+08:00  INFO 3846950 --- [kPoolExecutor-9] c.n.b.service.impl.DetectTask            : 任务: e2ab923a-6ea5-46cd-887c-1c66f8d3267a 检测完成
+2023-10-25T21:52:01.369+08:00  INFO 3846950 --- [kPoolExecutor-9] c.n.b.service.impl.TaskManager           : 删除任务: e2ab923a-6ea5-46cd-887c-1c66f8d3267a Map中任务数: 8
+2023-10-25T21:52:01.369+08:00  INFO 3846950 --- [kPoolExecutor-9] c.n.b.service.impl.DetectTask            : 任务: e2ab923a-6ea5-46cd-887c-1c66f8d3267a 检测成功, 已停止, 退出码为: 0
+2023-10-25T21:52:03.027+08:00  INFO 3846950 --- [PoolExecutor-10] c.n.b.service.impl.DetectTask            : 任务: e4820f89-2a17-4f6f-9c2e-e08c5a95ff33 Go脚本进程PID为: 3850816
+2023-10-25T21:52:03.027+08:00  INFO 3846950 --- [PoolExecutor-10] c.n.b.service.impl.DetectTask            : 任务: e4820f89-2a17-4f6f-9c2e-e08c5a95ff33 Go脚本执行完毕, 退出码: 0
+2023-10-25T21:52:03.027+08:00  INFO 3846950 --- [PoolExecutor-10] c.n.b.service.impl.DetectTask            : 任务: e4820f89-2a17-4f6f-9c2e-e08c5a95ff33 解析完成
+2023-10-25T21:52:03.028+08:00  INFO 3846950 --- [PoolExecutor-10] c.n.b.service.impl.DetectTask            : 任务: e4820f89-2a17-4f6f-9c2e-e08c5a95ff33 Python脚本进程的PID为: 3852344
+2023-10-25T21:52:03.028+08:00  INFO 3846950 --- [PoolExecutor-10] c.n.b.service.impl.DetectTask            : 任务: e4820f89-2a17-4f6f-9c2e-e08c5a95ff33 (Python) 当前使用模型: XGBoost(UEID)
+2023-10-25T21:52:03.028+08:00  INFO 3846950 --- [PoolExecutor-10] c.n.b.service.impl.DetectTask            : 任务: e4820f89-2a17-4f6f-9c2e-e08c5a95ff33 Python脚本执行完毕, 退出码：0
+2023-10-25T21:52:03.028+08:00  INFO 3846950 --- [PoolExecutor-10] c.n.b.service.impl.DetectTask            : 任务: e4820f89-2a17-4f6f-9c2e-e08c5a95ff33 检测完成
+2023-10-25T21:52:03.054+08:00  INFO 3846950 --- [PoolExecutor-10] c.n.b.service.impl.TaskManager           : 删除任务: e4820f89-2a17-4f6f-9c2e-e08c5a95ff33 Map中任务数: 7
+2023-10-25T21:52:03.054+08:00  INFO 3846950 --- [PoolExecutor-10] c.n.b.service.impl.DetectTask            : 任务: e4820f89-2a17-4f6f-9c2e-e08c5a95ff33 检测成功, 已停止, 退出码为: 0
+2023-10-25T21:52:26.999+08:00  INFO 3846950 --- [kPoolExecutor-2] c.n.b.service.impl.DetectTask            : 任务: 284cdd44-b148-400e-83fc-ac9e419f9006 Go脚本进程PID为: 3849332
+2023-10-25T21:52:26.999+08:00  INFO 3846950 --- [kPoolExecutor-2] c.n.b.service.impl.DetectTask            : 任务: 284cdd44-b148-400e-83fc-ac9e419f9006 Go脚本执行完毕, 退出码: 0
+2023-10-25T21:52:26.999+08:00  INFO 3846950 --- [kPoolExecutor-2] c.n.b.service.impl.DetectTask            : 任务: 284cdd44-b148-400e-83fc-ac9e419f9006 解析完成
+2023-10-25T21:52:26.999+08:00  INFO 3846950 --- [kPoolExecutor-2] c.n.b.service.impl.DetectTask            : 任务: 284cdd44-b148-400e-83fc-ac9e419f9006 Python脚本进程的PID为: 3852720
+2023-10-25T21:52:26.999+08:00  INFO 3846950 --- [kPoolExecutor-2] c.n.b.service.impl.DetectTask            : 任务: 284cdd44-b148-400e-83fc-ac9e419f9006 (Python) 当前使用模型: XGBoost(Time)
+2023-10-25T21:52:26.999+08:00  INFO 3846950 --- [kPoolExecutor-2] c.n.b.service.impl.DetectTask            : 任务: 284cdd44-b148-400e-83fc-ac9e419f9006 Python脚本执行完毕, 退出码：0
+2023-10-25T21:52:26.999+08:00  INFO 3846950 --- [kPoolExecutor-2] c.n.b.service.impl.DetectTask            : 任务: 284cdd44-b148-400e-83fc-ac9e419f9006 检测完成
+2023-10-25T21:52:27.034+08:00  INFO 3846950 --- [kPoolExecutor-2] c.n.b.service.impl.TaskManager           : 删除任务: 284cdd44-b148-400e-83fc-ac9e419f9006 Map中任务数: 6
+2023-10-25T21:52:27.034+08:00  INFO 3846950 --- [kPoolExecutor-2] c.n.b.service.impl.DetectTask            : 任务: 284cdd44-b148-400e-83fc-ac9e419f9006 检测成功, 已停止, 退出码为: 0
+2023-10-25T21:53:42.313+08:00  INFO 3846950 --- [kPoolExecutor-1] c.n.b.service.impl.DetectTask            : 任务: 14e1ccf3-0fb3-4876-8f04-2227b736c836 Go脚本进程PID为: 3849302
+2023-10-25T21:53:42.314+08:00  INFO 3846950 --- [kPoolExecutor-1] c.n.b.service.impl.DetectTask            : 任务: 14e1ccf3-0fb3-4876-8f04-2227b736c836 Go脚本执行完毕, 退出码: 0
+2023-10-25T21:53:42.314+08:00  INFO 3846950 --- [kPoolExecutor-1] c.n.b.service.impl.DetectTask            : 任务: 14e1ccf3-0fb3-4876-8f04-2227b736c836 解析完成
+2023-10-25T21:53:42.314+08:00  INFO 3846950 --- [kPoolExecutor-1] c.n.b.service.impl.DetectTask            : 任务: 14e1ccf3-0fb3-4876-8f04-2227b736c836 Python脚本进程的PID为: 3852533
+2023-10-25T21:53:42.314+08:00  INFO 3846950 --- [kPoolExecutor-1] c.n.b.service.impl.DetectTask            : 任务: 14e1ccf3-0fb3-4876-8f04-2227b736c836 (Python) /home/whe/anaconda3/envs/xgboost39/lib/python3.9/site-packages/sklearn/base.py:329: UserWarning: Trying to unpickle estimator KMeans from version 0.24.2 when using version 1.0.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+2023-10-25T21:53:42.314+08:00  INFO 3846950 --- [kPoolExecutor-1] c.n.b.service.impl.DetectTask            : 任务: 14e1ccf3-0fb3-4876-8f04-2227b736c836 (Python) https://scikit-learn.org/stable/modules/model_persistence.html#security-maintainability-limitations
+2023-10-25T21:53:42.314+08:00  INFO 3846950 --- [kPoolExecutor-1] c.n.b.service.impl.DetectTask            : 任务: 14e1ccf3-0fb3-4876-8f04-2227b736c836 (Python) warnings.warn(
+2023-10-25T21:53:42.314+08:00  INFO 3846950 --- [kPoolExecutor-1] c.n.b.service.impl.DetectTask            : 任务: 14e1ccf3-0fb3-4876-8f04-2227b736c836 (Python) 当前使用模型: Whipser(UEID)
+2023-10-25T21:53:42.314+08:00  INFO 3846950 --- [kPoolExecutor-1] c.n.b.service.impl.DetectTask            : 任务: 14e1ccf3-0fb3-4876-8f04-2227b736c836 Python脚本执行完毕, 退出码：0
+2023-10-25T21:53:42.314+08:00  INFO 3846950 --- [kPoolExecutor-1] c.n.b.service.impl.DetectTask            : 任务: 14e1ccf3-0fb3-4876-8f04-2227b736c836 检测完成
+2023-10-25T21:53:42.347+08:00  INFO 3846950 --- [kPoolExecutor-1] c.n.b.service.impl.TaskManager           : 删除任务: 14e1ccf3-0fb3-4876-8f04-2227b736c836 Map中任务数: 5
+2023-10-25T21:53:42.347+08:00  INFO 3846950 --- [kPoolExecutor-1] c.n.b.service.impl.DetectTask            : 任务: 14e1ccf3-0fb3-4876-8f04-2227b736c836 检测成功, 已停止, 退出码为: 0
+2023-10-25T21:55:23.869+08:00  INFO 3846950 --- [kPoolExecutor-3] c.n.b.service.impl.DetectTask            : 任务: 4e42c1ca-edcc-4fd0-beec-bfb9a0a18448 Go脚本进程PID为: 3849374
+2023-10-25T21:55:23.869+08:00  INFO 3846950 --- [kPoolExecutor-3] c.n.b.service.impl.DetectTask            : 任务: 4e42c1ca-edcc-4fd0-beec-bfb9a0a18448 Go脚本执行完毕, 退出码: 0
+2023-10-25T21:55:23.869+08:00  INFO 3846950 --- [kPoolExecutor-3] c.n.b.service.impl.DetectTask            : 任务: 4e42c1ca-edcc-4fd0-beec-bfb9a0a18448 解析完成
+2023-10-25T21:55:23.869+08:00  INFO 3846950 --- [kPoolExecutor-3] c.n.b.service.impl.DetectTask            : 任务: 4e42c1ca-edcc-4fd0-beec-bfb9a0a18448 Python脚本进程的PID为: 3852768
+2023-10-25T21:55:23.870+08:00  INFO 3846950 --- [kPoolExecutor-3] c.n.b.service.impl.DetectTask            : 任务: 4e42c1ca-edcc-4fd0-beec-bfb9a0a18448 (Python) 当前使用模型: XGBoost(UEID)
+2023-10-25T21:55:23.870+08:00  INFO 3846950 --- [kPoolExecutor-3] c.n.b.service.impl.DetectTask            : 任务: 4e42c1ca-edcc-4fd0-beec-bfb9a0a18448 Python脚本执行完毕, 退出码：0
+2023-10-25T21:55:23.870+08:00  INFO 3846950 --- [kPoolExecutor-3] c.n.b.service.impl.DetectTask            : 任务: 4e42c1ca-edcc-4fd0-beec-bfb9a0a18448 检测完成
+2023-10-25T21:55:23.903+08:00  INFO 3846950 --- [kPoolExecutor-3] c.n.b.service.impl.TaskManager           : 删除任务: 4e42c1ca-edcc-4fd0-beec-bfb9a0a18448 Map中任务数: 4
+2023-10-25T21:55:23.903+08:00  INFO 3846950 --- [kPoolExecutor-3] c.n.b.service.impl.DetectTask            : 任务: 4e42c1ca-edcc-4fd0-beec-bfb9a0a18448 检测成功, 已停止, 退出码为: 0
+2023-10-25T21:55:24.027+08:00  INFO 3846950 --- [kPoolExecutor-5] c.n.b.service.impl.DetectTask            : 任务: 58a31b2c-0ab8-4477-9b37-e6f2b2b0d4eb Go脚本进程PID为: 3849842
+2023-10-25T21:55:24.027+08:00  INFO 3846950 --- [kPoolExecutor-5] c.n.b.service.impl.DetectTask            : 任务: 58a31b2c-0ab8-4477-9b37-e6f2b2b0d4eb Go脚本执行完毕, 退出码: 0
+2023-10-25T21:55:24.027+08:00  INFO 3846950 --- [kPoolExecutor-5] c.n.b.service.impl.DetectTask            : 任务: 58a31b2c-0ab8-4477-9b37-e6f2b2b0d4eb 解析完成
+2023-10-25T21:55:24.027+08:00  INFO 3846950 --- [kPoolExecutor-5] c.n.b.service.impl.DetectTask            : 任务: 58a31b2c-0ab8-4477-9b37-e6f2b2b0d4eb Python脚本进程的PID为: 3852633
+2023-10-25T21:55:24.027+08:00  INFO 3846950 --- [kPoolExecutor-5] c.n.b.service.impl.DetectTask            : 任务: 58a31b2c-0ab8-4477-9b37-e6f2b2b0d4eb (Python) 当前使用模型: XGBoost(UEID)
+2023-10-25T21:55:24.027+08:00  INFO 3846950 --- [kPoolExecutor-5] c.n.b.service.impl.DetectTask            : 任务: 58a31b2c-0ab8-4477-9b37-e6f2b2b0d4eb Python脚本执行完毕, 退出码：0
+2023-10-25T21:55:24.027+08:00  INFO 3846950 --- [kPoolExecutor-5] c.n.b.service.impl.DetectTask            : 任务: 58a31b2c-0ab8-4477-9b37-e6f2b2b0d4eb 检测完成
+2023-10-25T21:55:24.057+08:00  INFO 3846950 --- [kPoolExecutor-5] c.n.b.service.impl.TaskManager           : 删除任务: 58a31b2c-0ab8-4477-9b37-e6f2b2b0d4eb Map中任务数: 3
+2023-10-25T21:55:24.057+08:00  INFO 3846950 --- [kPoolExecutor-5] c.n.b.service.impl.DetectTask            : 任务: 58a31b2c-0ab8-4477-9b37-e6f2b2b0d4eb 检测成功, 已停止, 退出码为: 0
+2023-10-25T21:55:25.635+08:00  INFO 3846950 --- [PoolExecutor-11] c.n.b.service.impl.DetectTask            : 任务: f7daa540-ad7f-4226-812f-825d22fc6287 Go脚本进程PID为: 3850907
+2023-10-25T21:55:25.635+08:00  INFO 3846950 --- [PoolExecutor-11] c.n.b.service.impl.DetectTask            : 任务: f7daa540-ad7f-4226-812f-825d22fc6287 Go脚本执行完毕, 退出码: 0
+2023-10-25T21:55:25.635+08:00  INFO 3846950 --- [PoolExecutor-11] c.n.b.service.impl.DetectTask            : 任务: f7daa540-ad7f-4226-812f-825d22fc6287 解析完成
+2023-10-25T21:55:25.635+08:00  INFO 3846950 --- [PoolExecutor-11] c.n.b.service.impl.DetectTask            : 任务: f7daa540-ad7f-4226-812f-825d22fc6287 Python脚本进程的PID为: 3852895
+2023-10-25T21:55:25.635+08:00  INFO 3846950 --- [PoolExecutor-11] c.n.b.service.impl.DetectTask            : 任务: f7daa540-ad7f-4226-812f-825d22fc6287 (Python) 当前使用模型: XGBoost(UEID)
+2023-10-25T21:55:25.635+08:00  INFO 3846950 --- [PoolExecutor-11] c.n.b.service.impl.DetectTask            : 任务: f7daa540-ad7f-4226-812f-825d22fc6287 Python脚本执行完毕, 退出码：0
+2023-10-25T21:55:25.635+08:00  INFO 3846950 --- [PoolExecutor-11] c.n.b.service.impl.DetectTask            : 任务: f7daa540-ad7f-4226-812f-825d22fc6287 检测完成
+2023-10-25T21:55:25.676+08:00  INFO 3846950 --- [PoolExecutor-11] c.n.b.service.impl.TaskManager           : 删除任务: f7daa540-ad7f-4226-812f-825d22fc6287 Map中任务数: 2
+2023-10-25T21:55:25.676+08:00  INFO 3846950 --- [PoolExecutor-11] c.n.b.service.impl.DetectTask            : 任务: f7daa540-ad7f-4226-812f-825d22fc6287 检测成功, 已停止, 退出码为: 0
+2023-10-25T22:01:29.808+08:00  INFO 3846950 --- [kPoolExecutor-8] c.n.b.service.impl.DetectTask            : 任务: c27f4a17-ac0f-4c29-9f80-2a27e71be324 Go脚本进程PID为: 3850327
+2023-10-25T22:01:29.809+08:00  INFO 3846950 --- [kPoolExecutor-8] c.n.b.service.impl.DetectTask            : 任务: c27f4a17-ac0f-4c29-9f80-2a27e71be324 Go脚本执行完毕, 退出码: 0
+2023-10-25T22:01:29.809+08:00  INFO 3846950 --- [kPoolExecutor-8] c.n.b.service.impl.DetectTask            : 任务: c27f4a17-ac0f-4c29-9f80-2a27e71be324 解析完成
+2023-10-25T22:01:29.809+08:00  INFO 3846950 --- [kPoolExecutor-8] c.n.b.service.impl.DetectTask            : 任务: c27f4a17-ac0f-4c29-9f80-2a27e71be324 Python脚本进程的PID为: 3853017
+2023-10-25T22:01:29.809+08:00  INFO 3846950 --- [kPoolExecutor-8] c.n.b.service.impl.DetectTask            : 任务: c27f4a17-ac0f-4c29-9f80-2a27e71be324 (Python) /home/whe/anaconda3/envs/xgboost39/lib/python3.9/site-packages/sklearn/base.py:329: UserWarning: Trying to unpickle estimator KMeans from version 0.24.2 when using version 1.0.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+2023-10-25T22:01:29.809+08:00  INFO 3846950 --- [kPoolExecutor-8] c.n.b.service.impl.DetectTask            : 任务: c27f4a17-ac0f-4c29-9f80-2a27e71be324 (Python) https://scikit-learn.org/stable/modules/model_persistence.html#security-maintainability-limitations
+2023-10-25T22:01:29.809+08:00  INFO 3846950 --- [kPoolExecutor-8] c.n.b.service.impl.DetectTask            : 任务: c27f4a17-ac0f-4c29-9f80-2a27e71be324 (Python) warnings.warn(
+2023-10-25T22:01:29.809+08:00  INFO 3846950 --- [kPoolExecutor-8] c.n.b.service.impl.DetectTask            : 任务: c27f4a17-ac0f-4c29-9f80-2a27e71be324 (Python) 当前使用模型: Whipser(UEID)
+2023-10-25T22:01:29.809+08:00  INFO 3846950 --- [kPoolExecutor-8] c.n.b.service.impl.DetectTask            : 任务: c27f4a17-ac0f-4c29-9f80-2a27e71be324 Python脚本执行完毕, 退出码：0
+2023-10-25T22:01:29.809+08:00  INFO 3846950 --- [kPoolExecutor-8] c.n.b.service.impl.DetectTask            : 任务: c27f4a17-ac0f-4c29-9f80-2a27e71be324 检测完成
+2023-10-25T22:01:29.834+08:00  INFO 3846950 --- [kPoolExecutor-8] c.n.b.service.impl.TaskManager           : 删除任务: c27f4a17-ac0f-4c29-9f80-2a27e71be324 Map中任务数: 1
+2023-10-25T22:01:29.834+08:00  INFO 3846950 --- [kPoolExecutor-8] c.n.b.service.impl.DetectTask            : 任务: c27f4a17-ac0f-4c29-9f80-2a27e71be324 检测成功, 已停止, 退出码为: 0
+2023-10-25T22:05:40.112+08:00  INFO 3846950 --- [kPoolExecutor-4] c.n.b.service.impl.DetectTask            : 任务: 54db0ae6-d078-4c43-ab2c-f474f9479f7b Go脚本进程PID为: 3849510
+2023-10-25T22:05:40.113+08:00  INFO 3846950 --- [kPoolExecutor-4] c.n.b.service.impl.DetectTask            : 任务: 54db0ae6-d078-4c43-ab2c-f474f9479f7b Go脚本执行完毕, 退出码: 0
+2023-10-25T22:05:40.113+08:00  INFO 3846950 --- [kPoolExecutor-4] c.n.b.service.impl.DetectTask            : 任务: 54db0ae6-d078-4c43-ab2c-f474f9479f7b 解析完成
+2023-10-25T22:05:40.113+08:00  INFO 3846950 --- [kPoolExecutor-4] c.n.b.service.impl.DetectTask            : 任务: 54db0ae6-d078-4c43-ab2c-f474f9479f7b Python脚本进程的PID为: 3853114
+2023-10-25T22:05:40.113+08:00  INFO 3846950 --- [kPoolExecutor-4] c.n.b.service.impl.DetectTask            : 任务: 54db0ae6-d078-4c43-ab2c-f474f9479f7b (Python) 当前使用模型: XGBoost(UEID)
+2023-10-25T22:05:40.113+08:00  INFO 3846950 --- [kPoolExecutor-4] c.n.b.service.impl.DetectTask            : 任务: 54db0ae6-d078-4c43-ab2c-f474f9479f7b Python脚本执行完毕, 退出码：0
+2023-10-25T22:05:40.113+08:00  INFO 3846950 --- [kPoolExecutor-4] c.n.b.service.impl.DetectTask            : 任务: 54db0ae6-d078-4c43-ab2c-f474f9479f7b 检测完成
+2023-10-25T22:05:40.141+08:00  INFO 3846950 --- [kPoolExecutor-4] c.n.b.service.impl.TaskManager           : 删除任务: 54db0ae6-d078-4c43-ab2c-f474f9479f7b Map中任务数: 0
+2023-10-25T22:05:40.141+08:00  INFO 3846950 --- [kPoolExecutor-4] c.n.b.service.impl.DetectTask            : 任务: 54db0ae6-d078-4c43-ab2c-f474f9479f7b 检测成功, 已停止, 退出码为: 0
+2023-10-26T09:41:10.054+08:00  INFO 3846950 --- [PoolExecutor-12] c.n.b.service.impl.DetectTask            : 任务: a83af632-2f3c-40e2-a0d7-05916a1b967c 执行检测, 线程名字为 = checkTaskPoolExecutor-12
+2023-10-26T09:41:10.057+08:00  INFO 3846950 --- [PoolExecutor-12] c.n.b.service.impl.TaskManager           : 添加任务: a83af632-2f3c-40e2-a0d7-05916a1b967c Map中任务数: 1
+2023-10-26T09:41:10.057+08:00  INFO 3846950 --- [PoolExecutor-12] c.n.b.service.impl.DetectTask            : 任务: a83af632-2f3c-40e2-a0d7-05916a1b967c 检测脚本运行的PID为:3858844
+2023-10-26T09:41:12.669+08:00  INFO 3846950 --- [PoolExecutor-12] c.n.b.service.impl.DetectTask            : 任务: a83af632-2f3c-40e2-a0d7-05916a1b967c Go脚本进程PID为: 3858854
+2023-10-26T09:41:12.670+08:00  INFO 3846950 --- [PoolExecutor-12] c.n.b.service.impl.DetectTask            : 任务: a83af632-2f3c-40e2-a0d7-05916a1b967c Go脚本执行完毕, 退出码: 0
+2023-10-26T09:41:12.670+08:00  INFO 3846950 --- [PoolExecutor-12] c.n.b.service.impl.DetectTask            : 任务: a83af632-2f3c-40e2-a0d7-05916a1b967c 解析完成
+2023-10-26T09:41:12.670+08:00  INFO 3846950 --- [PoolExecutor-12] c.n.b.service.impl.DetectTask            : 任务: a83af632-2f3c-40e2-a0d7-05916a1b967c Python脚本进程的PID为: 3859100
+2023-10-26T09:41:12.670+08:00  INFO 3846950 --- [PoolExecutor-12] c.n.b.service.impl.DetectTask            : 任务: a83af632-2f3c-40e2-a0d7-05916a1b967c (Python) 当前使用模型: XGBoost(Time)
+2023-10-26T09:41:12.670+08:00  INFO 3846950 --- [PoolExecutor-12] c.n.b.service.impl.DetectTask            : 任务: a83af632-2f3c-40e2-a0d7-05916a1b967c Python脚本执行完毕, 退出码：0
+2023-10-26T09:41:12.670+08:00  INFO 3846950 --- [PoolExecutor-12] c.n.b.service.impl.DetectTask            : 任务: a83af632-2f3c-40e2-a0d7-05916a1b967c 检测完成
+2023-10-26T09:41:12.694+08:00  INFO 3846950 --- [PoolExecutor-12] c.n.b.service.impl.TaskManager           : 删除任务: a83af632-2f3c-40e2-a0d7-05916a1b967c Map中任务数: 0
+2023-10-26T09:41:12.694+08:00  INFO 3846950 --- [PoolExecutor-12] c.n.b.service.impl.DetectTask            : 任务: a83af632-2f3c-40e2-a0d7-05916a1b967c 检测成功, 已停止, 退出码为: 0
+2023-10-28T15:12:54.602+08:00  INFO 3846950 --- [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-10-28T15:12:54.605+08:00  INFO 3846950 --- [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------------< com.networkflow:backendspringboot3 >-----------------
+[INFO] Building backendspringboot3 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> spring-boot-maven-plugin:3.1.5:run (default-cli) > test-compile @ backendspringboot3 >>>
+[INFO] 
+[INFO] --- maven-resources-plugin:3.3.1:resources (default-resources) @ backendspringboot3 ---
+[INFO] Copying 1 resource from src/main/resources to target/classes
+[INFO] Copying 37 resources from src/main/resources to target/classes
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.11.0:compile (default-compile) @ backendspringboot3 ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:3.3.1:testResources (default-testResources) @ backendspringboot3 ---
+[INFO] skip non existing resourceDirectory /home/whe/webHWCYahong/backend/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.11.0:testCompile (default-testCompile) @ backendspringboot3 ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] <<< spring-boot-maven-plugin:3.1.5:run (default-cli) < test-compile @ backendspringboot3 <<<
+[INFO] 
+[INFO] 
+[INFO] --- spring-boot-maven-plugin:3.1.5:run (default-cli) @ backendspringboot3 ---
+[INFO] Attaching agents: []
