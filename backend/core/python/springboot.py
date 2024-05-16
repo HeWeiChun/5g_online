@@ -103,7 +103,6 @@ def detect_taskid(model_type, taskid):
         # XGBoost模型
         else:
 
-
             for id in flow_id:
                 # 获取当前流的所有包
                 packet_params = {'flowid': id}
@@ -153,6 +152,7 @@ def detect_taskid(model_type, taskid):
         elif task_status == 200:
             client.disconnect()
             sys.exit(200)
+
 
 def main(parser):
     args = parser.parse_args()
